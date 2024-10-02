@@ -10,6 +10,7 @@ public class Main {
         Book book1 = new Book("Муму", author1, 1854);
 
 
+
         System.out.println("Имя автора - " + author.getName() + " " + author.getSurname());
         System.out.println("Название - " + book.getNameBook());
         System.out.println("Год издания - " + book.getPublishingYear());
