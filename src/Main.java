@@ -6,8 +6,8 @@ public class Main {
 
         Author author = new Author("Лев", "Толстой");
         Author author1 = new Author("Иван", "Тургенев");
-        Book book = new Book("Война и мир", "Л.Н.Толстой", 1869);
-        Book book1 = new Book("Муму", "И.С. Тургенев", 1854);
+        Book book = new Book("Война и мир",author, 1869);
+        Book book1 = new Book("Муму", author1, 1854);
 
 
         System.out.println("Имя автора - " + author.getName() + " " + author.getSurname());
