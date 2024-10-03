@@ -21,6 +21,8 @@ public class Main {
         System.out.println("Год издания - " + book1.getPublishingYear());
         System.out.println();
         System.out.println("Сравнение обьектов "+book.equals(book1));
+        System.out.println(book);
+        System.out.println(book1);
 
     }
 

@@ -35,6 +35,14 @@ public class Book {
     }
 
     @Override
+    public String toString() {
+        return "Книга: " +
+                "Название " +'\"' + nameBook + '\"' +
+                ", " + author +
+                ", год издания " + publishingYear ;
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Book book)) return false;

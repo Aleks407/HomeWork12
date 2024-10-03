@@ -1,11 +1,11 @@
 import java.util.Objects;
 
-// характеристики класса
+
 
 public class Author {
     private String name;
     private String surname;
-//конструктор
+
     public Author(String name, String surname) {
         this.name = name;
         this.surname = surname;
@@ -21,9 +21,9 @@ public class Author {
     public String getSurname() {
         return this.surname;
     }
-
+    @Override
     public String toString(){
-        return "Имя автора - "+this.name+" "+this.surname;
+        return "Автор - "+this.name+" "+this.surname;
     }
 
     @Override
